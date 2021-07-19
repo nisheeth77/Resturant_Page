@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(129, 134, 153, 0.7),rgba(4,9,30,0.7)),url(wp1874156.jpg);
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+    margin: 0 0px;
+}
+.navbar_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px 0;
+}
+li{
+    display: inline-block;
+
+    padding: 0 50px;
+    position: relative;
+    left : 30px;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 50px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color: rgb(236, 97, 97);
+    background-color:rgb(6, 122, 51)
+}
+.tag_line {
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+ 
+.tag_line_description {
+    text-align: center;
+    color: wheat;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.link-to-book {
+    color: #ffffff;
+    align-items: center;
+    position: relative;
+    left: 550px;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+ 
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+.button__primary {
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+.food__card {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .food__card__image__container {
+    width: 100%;
+  }
+  .food__image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+.explore__menu__lists {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    padding: 0 30px;
+    gap: 40px;
+  }
+  #pizza__card {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  .food__card__image__container {
+    width: 100%;
+  }
+  .explore__menu__container {
+    margin-top:-50px;
+    padding-top: 30px;
+  }
+  .explore__menu__view__more {
+    display: flex;
+    justify-content: center;
+  }
+  .explore__menu__container {
+    position: relative;
+  }
+  .explore__menu__text {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .explore__menu__gradient__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    
+    z-index: -3;
+  }
+  .food__card__description{
+      padding: 10px
+  }
+  .explore__menu__view__more{
+      
+      padding: 30px;
+  }
+  .blank{
+      background-color: white;
+      min-height: 20px;
+  }
